@@ -1,6 +1,6 @@
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
+#!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -27,9 +27,11 @@ target/
 /.nb-gradle/
 build/
 !**/src/main/**/build/
-!**/src/main/**/node/
+!**/src/main/**/node_modules/
 !**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+/src/main/myfrontend/node_modules/
 /src/main/myfrontend/node/
+/src/main/myfrontend/
